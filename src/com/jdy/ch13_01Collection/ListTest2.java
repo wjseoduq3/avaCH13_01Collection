@@ -30,6 +30,11 @@ public class ListTest2 {
 		memebrList.add(member2);
 		memebrList.add(member3);
 		
+		if (memebrList.isEmpty()) {
+			System.out.println("비어있음");
+		} else {
+			System.out.println("비어있지 않음");
+		}
 		
 	}
 
